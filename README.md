@@ -38,7 +38,7 @@ Modern, güvenli ve kullanıcı dostu bir **araç açık artırma platformu**. K
 ![Vehicle Detail](./screenshots/vehicle-detail.png)
 
 ### 💸 Ödeme Sayfası
-![Payment](./screenshots/payment1.png)
+![Payment](./screenshots/payment.png)
 
 ### 👤 Kullanıcı Profili
 ![Profile](./screenshots/profile.png)
@@ -93,13 +93,11 @@ Her katkıyı memnuniyetle karşılıyoruz! 🙌
 git clone https://github.com/tolgatopcu1/CarAuctionPlatform.git
 cd CarAuctionPlatform
 
-🔧 2. Backend'i Başlatın (.NET 9)
 cd AuctionProject
 dotnet restore            # Gerekli NuGet paketlerini yükler
 dotnet ef database update # Veritabanı migrasyonlarını uygular
 dotnet run                # Backend servisini başlatır
 
-💻 3. Frontend'i Başlatın (React + Vite)
 cd AuctionProjectClient/MyAuctionClientApp
 npm install   # Gerekli Node.js paketlerini yükler
 npm run dev   # Geliştirme sunucusunu başlatır
