@@ -1,0 +1,14 @@
+# ASP.NET Core
+AuctionProject/**/bin/
+AuctionProject/**/obj/
+AuctionProject/**/appsettings.Development.json
+AuctionProject/**/appsettings.Local.json
+
+# React
+ClientApp/node_modules/
+ClientApp/dist/
+
+# Genel
+.env
+*.log
+.vscode/

@@ -1,0 +1,6 @@
+@My_Galaxy_Auction_HostAddress = http://localhost:5139
+
+GET {{My_Galaxy_Auction_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
