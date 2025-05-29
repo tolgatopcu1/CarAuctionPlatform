@@ -2,7 +2,7 @@
 
 Modern, güvenli ve kullanıcı dostu bir **araç açık artırma platformu**. Kullanıcılar araç listeleyebilir, teklif verebilir, ödemelerini Stripe ile gerçekleştirebilir ve satış yapabilir. Tamamen responsive, sade ve güçlü bir kullanıcı deneyimi sunar.
 
-![Banner](./screenshots/banner.png)
+![Banner](./screenshots/home.png)
 
 ---
 
@@ -60,47 +60,49 @@ Modern, güvenli ve kullanıcı dostu bir **araç açık artırma platformu**. K
 git clone https://github.com/tolgatopcu1/CarAuctionPlatform.git
 cd CarAuctionPlatform
 
-🔧 2. Backend'i Başlat (.NET 9)
+### 🔧 2. Backend'i Başlatın (.NET 9)
+Backend, ASP.NET Core 9 ile geliştirilmiştir.
+
+```bash
 cd AuctionProject
-dotnet restore
-dotnet ef database update
-dotnet run
+dotnet restore          # Gerekli NuGet paketlerini yükler
+dotnet ef database update # Veritabanı migrasyonlarını uygular
+dotnet run              # Backend servisini başlatır
 
-💻 3. Frontend’i Başlat (React + Vite)
+---
+
+### Frontend'i Başlatın (React + Vite) Bölümü
+
+```markdown
+### 💻 3. Frontend'i Başlatın (React + Vite)
+Frontend, React ve Vite ile geliştirilmiştir.
+
+```bash
 cd AuctionProjectClient/MyAuctionClientApp
-npm install
-npm run dev
+npm install             # Gerekli Node.js paketlerini yükler
+npm run dev             # Geliştirme sunucusunu başlatır
 
-## 🔄 Kullanıcı Akışı
+---
 
-👤 Kullanıcı kayıt olur ve giriş yapar.
+### Kullanıcı Akışı Bölümü
 
-🚘 Araç listeleyebilir veya listelenmiş araçlara göz atabilir.
+```markdown
+## 🚀 Kullanıcı Akışı
 
-💰 İlgilendiği araca teklif verir.
+Platformdaki temel bir kullanıcı etkileşimi döngüsü aşağıdaki gibidir:
 
-🏆 Açık artırmayı kazanırsa ödeme sayfasına yönlendirilir.
-
-💳 Stripe ile güvenli ödeme yapar ve araç kendisine ait olur.
-
-👤 Profil sayfasından geçmiş araçlar ve teklifler görüntülenebilir.
-
-## 🤝 Katkı Sağlamak İster Misin?
-
-Bu projeye katkı sağlamak istersen:
-
-1. Bu repository’yi forkle  
-2. Yeni bir branch oluştur (`feature/ekleme`)  
-3. Geliştirmelerini yap  
-4. Pull Request gönder  
-
-Her katkıyı memnuniyetle karşılıyoruz! 🙌
+1.  **Kayıt ve Giriş:** Kullanıcı kaydolur ve platforma güvenli bir şekilde giriş yapar.
+2.  **Araç Keşfi:** Kullanıcı araç listeleyebilir veya mevcut listelenmiş araçlara göz atabilir.
+3.  **Teklif Verme:** İlgilendiği bir araca teklif verir.
+4.  **Açık Artırma Kazanma:** Açık artırmayı kazanması durumunda ödeme sayfasına yönlendirilir.
+5.  **Güvenli Ödeme:** Stripe ile güvenli bir şekilde ödeme yapar ve aracın sahibi olur.
+6.  **Geçmiş Takibi:** Profil sayfasından geçmiş araçlarını, verdiği teklifleri ve kazandığı/kaybettiği açık artırmaları görüntüleyebilir.
 
 
 ## ✉️ İletişim
 
-**Tolga Topçu**  
-💼 [LinkedIn Profilim](https://www.linkedin.com/in/tolgatopcu1)  
-🐙 [GitHub Profilim](https://github.com/tolgatopcu1)
+**Tolga Topçu**
+* 💼 [LinkedIn Profilim](https://www.linkedin.com/in/tolgatopcu1)
+* 🐙 [GitHub Profilim](https://github.com/tolgatopcu1)
 
 
