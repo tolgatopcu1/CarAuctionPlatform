@@ -31,7 +31,6 @@ Modern, güvenli ve kullanıcı dostu bir **araç açık artırma platformu**. K
 
 ## 🖼️ Ekran Görüntüleri
 
-
 ### 🔐 Giriş Sayfası
 ![Login](./screenshots/login.png)
 
@@ -39,70 +38,68 @@ Modern, güvenli ve kullanıcı dostu bir **araç açık artırma platformu**. K
 ![Vehicle Detail](./screenshots/vehicle-detail.png)
 
 ### 💸 Ödeme Sayfası
-![Vehicle Detail](./screenshots/payment1.png)
-
+![Payment](./screenshots/payment1.png)
 
 ### 👤 Kullanıcı Profili
 ![Profile](./screenshots/profile.png)
 
-### 👤 Kullanıcı Araç Kazanma Sayfası
-![Profile](./screenshots/win.png)
+### 🏆 Kazanılan Araçlar
+![Win](./screenshots/win.png)
 
-### 👤 Kullanıcı Araç Satış Onayı Sayfası
-![Profile](./screenshots/sell.png)
+### 💼 Satış Onayı
+![Sell](./screenshots/sell.png)
+
+---
+
+## 🚀 Kullanıcı Akışı
+
+Platformdaki temel kullanıcı etkileşimi:
+
+1. **Kayıt ve Giriş:** Kullanıcı kaydolur ve güvenli bir şekilde giriş yapar.
+2. **Araç Keşfi:** Araç listeleyebilir veya mevcut araçlara göz atabilir.
+3. **Teklif Verme:** İlgilendiği araca teklif verir.
+4. **Kazanan Belirlenmesi:** Açık artırmayı kazanırsa ödeme ekranına yönlendirilir.
+5. **Stripe ile Ödeme:** Güvenli ödeme yapılır ve araç artık ona aittir.
+6. **Profil Takibi:** Kullanıcı, geçmiş araçları ve teklifleri görüntüleyebilir.
+
+---
+
+## 🤝 Katkı Sağlamak İster Misin?
+
+Bu projeye katkı sağlamak istersen:
+
+1. Bu repository’yi **forkla**  
+2. Yeni bir branch oluştur: `feature/senin-özelliğin`  
+3. Geliştirmeleri yap  
+4. Bir **Pull Request** gönder  
+
+Her katkıyı memnuniyetle karşılıyoruz! 🙌
+
+---
+
+## ✉️ İletişim
+
+**Tolga Topçu**  
+💼 [LinkedIn Profilim](https://www.linkedin.com/in/tolgatopcu1)  
+🐙 [GitHub Profilim](https://github.com/tolgatopcu1)
 
 ---
 
 ## ⚙️ Kurulum
 
 ### 🔽 1. Reposu Klonla
+
 ```bash
 git clone https://github.com/tolgatopcu1/CarAuctionPlatform.git
 cd CarAuctionPlatform
 
-### 🔧 2. Backend'i Başlatın (.NET 9)
-Backend, ASP.NET Core 9 ile geliştirilmiştir.
-
-```bash
+🔧 2. Backend'i Başlatın (.NET 9)
 cd AuctionProject
-dotnet restore          # Gerekli NuGet paketlerini yükler
+dotnet restore            # Gerekli NuGet paketlerini yükler
 dotnet ef database update # Veritabanı migrasyonlarını uygular
-dotnet run              # Backend servisini başlatır
+dotnet run                # Backend servisini başlatır
 
----
-
-### Frontend'i Başlatın (React + Vite) Bölümü
-
-```markdown
-### 💻 3. Frontend'i Başlatın (React + Vite)
-Frontend, React ve Vite ile geliştirilmiştir.
-
-```bash
+💻 3. Frontend'i Başlatın (React + Vite)
 cd AuctionProjectClient/MyAuctionClientApp
-npm install             # Gerekli Node.js paketlerini yükler
-npm run dev             # Geliştirme sunucusunu başlatır
-
----
-
-### Kullanıcı Akışı Bölümü
-
-```markdown
-## 🚀 Kullanıcı Akışı
-
-Platformdaki temel bir kullanıcı etkileşimi döngüsü aşağıdaki gibidir:
-
-1.  **Kayıt ve Giriş:** Kullanıcı kaydolur ve platforma güvenli bir şekilde giriş yapar.
-2.  **Araç Keşfi:** Kullanıcı araç listeleyebilir veya mevcut listelenmiş araçlara göz atabilir.
-3.  **Teklif Verme:** İlgilendiği bir araca teklif verir.
-4.  **Açık Artırma Kazanma:** Açık artırmayı kazanması durumunda ödeme sayfasına yönlendirilir.
-5.  **Güvenli Ödeme:** Stripe ile güvenli bir şekilde ödeme yapar ve aracın sahibi olur.
-6.  **Geçmiş Takibi:** Profil sayfasından geçmiş araçlarını, verdiği teklifleri ve kazandığı/kaybettiği açık artırmaları görüntüleyebilir.
-
-
-## ✉️ İletişim
-
-**Tolga Topçu**
-* 💼 [LinkedIn Profilim](https://www.linkedin.com/in/tolgatopcu1)
-* 🐙 [GitHub Profilim](https://github.com/tolgatopcu1)
-
-
+npm install   # Gerekli Node.js paketlerini yükler
+npm run dev   # Geliştirme sunucusunu başlatır
