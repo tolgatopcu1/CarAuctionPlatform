@@ -41,8 +41,6 @@ Modern, güvenli ve kullanıcı dostu bir **araç açık artırma platformu**. K
 ### 💸 Ödeme Sayfası
 ![Vehicle Detail](./screenshots/payment1.png)
 
-### 💸 Teklif Verme
-![Bidding](./screenshots/bidding.png)
 
 ### 👤 Kullanıcı Profili
 ![Profile](./screenshots/profile.png)
@@ -73,7 +71,8 @@ cd AuctionProjectClient/MyAuctionClientApp
 npm install
 npm run dev
 
-🔄 Kullanıcı Akışı
+## 🔄 Kullanıcı Akışı
+
 👤 Kullanıcı kayıt olur ve giriş yapar.
 
 🚘 Araç listeleyebilir veya listelenmiş araçlara göz atabilir.
@@ -86,22 +85,22 @@ npm run dev
 
 👤 Profil sayfasından geçmiş araçlar ve teklifler görüntülenebilir.
 
-🤝 Katkı Sağlamak İster Misin?
+## 🤝 Katkı Sağlamak İster Misin?
+
 Bu projeye katkı sağlamak istersen:
 
-Bu repository’yi forkle
+1. Bu repository’yi forkle  
+2. Yeni bir branch oluştur (`feature/ekleme`)  
+3. Geliştirmelerini yap  
+4. Pull Request gönder  
 
-Yeni bir branch oluştur (feature/ekleme)
-
-Geliştirmelerini yap
-
-Pull Request gönder
-
-Her katkıyı memnuniyetle karşılıyoruz!
+Her katkıyı memnuniyetle karşılıyoruz! 🙌
 
 
 ## ✉️ İletişim
 
 **Tolga Topçu**  
 💼 [LinkedIn Profilim](https://www.linkedin.com/in/tolgatopcu1)  
-🐙 [GitHub](https://github.com/tolgatopcu1)
+🐙 [GitHub Profilim](https://github.com/tolgatopcu1)
+
+
